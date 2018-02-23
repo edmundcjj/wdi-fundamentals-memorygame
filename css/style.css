@@ -1,5 +1,4 @@
 
-
 h1 {
   font-family: "Raleway", sans-serif;
   color: #0D2C40;
@@ -17,6 +16,11 @@ a{
   font-size: 18px;
   text-decoration: none;
   margin: 0px 20px 0px 20px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-color: white;
 }
 
 h2{
@@ -59,4 +63,38 @@ main{
 
 img{
   margin: 40px 8px 0px 8px;
+}
+
+footer{
+  text-transform: uppercase;
+  padding: 0px 20px 0px 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copyright{
+  font-family: "Raleway", sans-serif;
+  float: left;
+}
+
+.message{
+  font-family: "Raleway", sans-serif;
+  float: right;
+}
+
+.name{
+  color: #F15B31;
+  font-weight: 700;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
